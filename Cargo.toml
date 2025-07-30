@@ -1,0 +1,16 @@
+[package]
+name = "gnosisdb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes-gcm = "0.10"
+rand = "0.8"
+sha2 = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1.3"
+hex = "0.4"
+uuid = { version = "1", features = ["v4"] }
+sss-rs = "0.13" # For secret sharing
+umbral-pre = "0.11"
+openfhe = "0.2.0"
